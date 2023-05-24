@@ -1,0 +1,12 @@
+theme: minima
+url: https://softeq.github.io
+baseurl: /itest-gradle-plugin
+gems:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+defaults:
+  - scope:
+      path: index
+      type: default
+    values:
+      layout: default
